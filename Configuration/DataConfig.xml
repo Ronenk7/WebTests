@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- TimeOut -->
+    <TimeOut>5</TimeOut>
+    <!-- General
+    <PlatformName>web</PlatformName>-->
+
+    <!-- Authorization -->
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <url>https://www.mortgagecalculator.org/</url>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/mortgage.csv</DDTFile>
+
+    <!-- Database -->
+    <DBURL>jdbc:mysql://remotemysql.com:3306/9unHsrC2Tl</DBURL>
+    <DBUserName>9unHsrC2Tl</DBUserName>
+    <DBPassword>KXPRrSI2hV</DBPassword>
+
+</Environment>

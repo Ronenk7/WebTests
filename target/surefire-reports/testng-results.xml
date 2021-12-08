@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="61680" started-at="2021-12-08T13:44:06 IST" finished-at="2021-12-08T13:45:08 IST">
+    <groups>
+    </groups>
+    <test name="Web Tests" duration-ms="61680" started-at="2021-12-08T13:44:06 IST" finished-at="2021-12-08T13:45:08 IST">
+      <class name="sanity.MortgageWeb">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="startSession" is-config="true" duration-ms="10816" started-at="2021-12-08T13:44:06 IST" finished-at="2021-12-08T13:44:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="beforeMethod" is-config="true" duration-ms="251" started-at="2021-12-08T13:44:17 IST" finished-at="2021-12-08T13:44:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MortgageWeb.test01_verifyHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test01_verifyHeader()[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="test01_verifyHeader" duration-ms="193" started-at="2021-12-08T13:44:18 IST" description="Test 01 - Verify Header" finished-at="2021-12-08T13:44:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_verifyHeader -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2021-12-08T13:44:18 IST" finished-at="2021-12-08T13:44:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MortgageWeb.test02_verifyMortgageCalculate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02_verifyMortgageCalculate()[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="test02_verifyMortgageCalculate" duration-ms="5095" started-at="2021-12-08T13:44:18 IST" description="Test 02 - Verify Mortgage Parameters" finished-at="2021-12-08T13:44:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_verifyMortgageCalculate -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2021-12-08T13:44:23 IST" finished-at="2021-12-08T13:44:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MortgageWeb.test03_verifyCurrentTaxesAndFees()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test03_verifyCurrentTaxesAndFees()[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="test03_verifyCurrentTaxesAndFees" duration-ms="8767" started-at="2021-12-08T13:44:23 IST" description="Test 03 - Verify Taxes &amp; Fees" finished-at="2021-12-08T13:44:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_verifyCurrentTaxesAndFees -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="beforeMethod" is-config="true" duration-ms="18" started-at="2021-12-08T13:44:32 IST" finished-at="2021-12-08T13:44:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MortgageWeb.test04_verifyBalancePrincipleAndInterest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test04_verifyBalancePrincipleAndInterest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="test04_verifyBalancePrincipleAndInterest" duration-ms="15358" started-at="2021-12-08T13:44:32 IST" description="Test 04 - Verify Balance Principle &amp; Interest" data-provider="data-provider-mortgage" finished-at="2021-12-08T13:44:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_verifyBalancePrincipleAndInterest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2021-12-08T13:44:47 IST" finished-at="2021-12-08T13:44:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MortgageWeb.test04_verifyBalancePrincipleAndInterest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test04_verifyBalancePrincipleAndInterest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="test04_verifyBalancePrincipleAndInterest" duration-ms="19900" started-at="2021-12-08T13:44:47 IST" description="Test 04 - Verify Balance Principle &amp; Interest" data-provider="data-provider-mortgage" finished-at="2021-12-08T13:45:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[70000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_verifyBalancePrincipleAndInterest -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:sanity.MortgageWeb@6d1310f6]" name="closeSession" is-config="true" duration-ms="697" started-at="2021-12-08T13:45:07 IST" finished-at="2021-12-08T13:45:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- sanity.MortgageWeb -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- Web Suite -->
+</testng-results>
